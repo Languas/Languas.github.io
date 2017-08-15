@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Отправка форм AJAX</title>
+	<style type="text/css">
+		.text_input {
+    display: inline-block;
+    width: 80%;
+    padding: 5px 15px;
+    border: solid 1px black;
+    color: black;
+    margin-bottom: 10px;
+}
+ .text_input:focus {
+    outline: none;
+}
+ .mail_input {
+    display: inline-block;
+    width: 80%;
+    padding: 5px 15px;
+    border: solid 1px black;
+    color: black;
+    margin-bottom: 10px;
+}
+ .mail_input:focus {
+    outline: none;
+}
+ .message_input {
+    display: inline-block;
+    width: 80%;
+    padding: 5px 15px;
+    padding-bottom: 60px;
+    border: solid 1px black;
+    color: black;
+    resize: none;
+    margin-bottom: 10px;
+}
+ .message_input:focus {
+    outline: none;
+}
+ .submit_input {
+    display: inline-block;
+    width: 80%;
+    padding: 5px 15px;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+    background-color: #b74b14;
+    font-family: 'RobotoBold', sans-serif;
+}
+	</style>
+</head>
+<body>
+	<form class="reviews" id="form">
+
+  <div class="   width_reviews_text">
+
+						<p class=" rev_bold"> Уважаемые посетители!</p>
+						
+						<span class="rev_reg"> Если Вы желаете оставить свои отзывы, комментарии и пожелания, Вы можете воспользоваться ниже приведенной формой.</span> 
+
+						<p class="rev_bold">Оставить отзыв: </p>
+						
+
+						
+
+						
+	
+						</div>
+         
+
+         <input class="text_input" name="name" type="text" placeholder="Ваше имя" required>
+         <input class="mail_input" name="e-mail" type="email" placeholder="Ваш e-mail" required>
+         <textarea class="message_input" name="text"  placeholder="Ваш комментарий" required></textarea>
+
+
+        <input class="submit_input"  type="submit" name="" value="Отправить" class="button-end">
+  </form>
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="common.js"></script>
+</body>
+</html>
