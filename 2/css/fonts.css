@@ -1,0 +1,56 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,400i,500,700&subset=cyrillic');*/
+
+@font-face {
+    font-family: 'RosaMarena';
+    src: url('../fonts/RosaMarena.eot');
+    src: url('../fonts/RosaMarena.eot?iefix') format('eot'),
+    url('../fonts/RosaMarena.woff') format('woff'),
+    url('../fonts/RosaMarena.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/Roboto-Bold.eot');
+    src: url('../fonts/Roboto-Bold.eot?iefix') format('eot'),
+    url('../fonts/Roboto-Bold.woff') format('woff'),
+    url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url('../fonts/RobotoCondensed-Italic.eot');
+    src: url('../fonts/RobotoCondensed-Italic.eot?iefix') format('eot'),
+    url('../fonts/RobotoCondensed-Italic.woff') format('woff'),
+    url('../fonts/RobotoCondensed-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('../fonts/Roboto-Medium.eot');
+    src: url('../fonts/Roboto-Medium.eot?iefix') format('eot'),
+    url('../fonts/Roboto-Medium.woff') format('woff'),
+    url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?iefix') format('eot'),
+    url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('../fonts/Roboto-Thin.eot');
+    src: url('../fonts/Roboto-Thin.eot?iefix') format('eot'),
+    url('../fonts/Roboto-Thin.woff') format('woff'),
+    url('../fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,117 @@
+@media (max-width: 960px ) {
+    .description {
+    font-size: 15px;
+}
+.sidebar {
+    font-size: 20px;
+}
+}
+@media ( max-width: 870px) {
+    .description {
+    font-size: 13px;
+}
+.sidebar {
+    font-size: 17px;
+}
+.info h1 {
+    font-size: 19px;
+}
+}
+@media ( max-width: 770px) {
+    header {
+    position: relative;
+    background-image: url('../images/header_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 62% center;
+    height: 680px;
+}
+.content {
+    height: auto;
+}
+.main_person {
+    display: block;
+    margin: 0 auto;
+}
+.info h1 {
+}
+.menu {
+}
+.description {
+    padding: 0 15px 50px 15px;
+    margin: 0 auto;
+    z-index: 100;
+}
+.bottle_img {
+    left: 7%;
+    width: 19%;
+}
+.copyright {
+    bottom: 36px;
+    left: 50%;
+    transform: translateX(-47%);
+}
+ .tagline {
+    font-size: 31px;
+    margin-left: 5%;
+}
+}
+@media (max-width: 550px) {
+    /*.factory {
+    margin-left: 5%;
+    width: ;
+    font-size: 23px;
+    text-shadow: 2px 2px 3px;
+    text-align: center;
+    line-height: 30px;
+    padding: 8px;
+}
+ .tagline {
+    font-size: 31px;
+    margin-left: 5%;
+}*/
+header {
+    position: relative;
+    background-image: url('../images/header_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% center;
+    height: 680px;
+}
+}
+@media (max-width: 450px) {
+    .main_person {
+    display: block;
+    margin: 0 auto;
+}
+.info h1 {
+    text-align: center;
+}
+.menu {
+    text-align: center;
+}
+.description {
+    padding: 15px 15px 50px 15px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 100;
+}
+/*.factory {
+    position: relative;
+    margin: 0;
+    display: block;
+    width: 60%;
+}
+ .tagline {
+    position: relative;
+    margin: 0;
+    display: block;
+    width: 90%;
+}*/
+.copyright {
+    font-size: 15px;
+    position: absolute;
+    bottom: 39px;
+    left: 50%;
+    transform: translateX(-50%);
+}
